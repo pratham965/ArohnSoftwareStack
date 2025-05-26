@@ -1,0 +1,12 @@
+<launch>
+    <node pkg="usb_cam" type="usb_cam_node" name="usb_cam1" output="screen">
+        <param name="video_device" value="/dev/video2"/>
+    </node>
+    <node pkg="usb_cam" type="usb_cam_node" name="usb_cam2" output="screen">
+        <param name="video_device" value="/dev/video4"/>
+    </node>
+
+    <!-- <node pkg="rqt_multiview" type="rqt_multiview" name="rqt_multiview" output="screen">
+        <param name="image_topics" value="/usb_cam1/image_raw /usb_cam2/image_raw"/>
+    </node> -->
+</launch>

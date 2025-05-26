@@ -1,0 +1,11 @@
+the rover is equipped with 3 ip camera and 3 usb camera which provides all round view 
+of the rover. To streamline the video feed, A custom GUI has also been made which provides
+the necessary sensory data
+
+Custom Yolo v8 and v10 models have been trained to detect arrows along with the code 
+(which marks the end)
+
+sensors like kinet v2 and RPLidar have been mounted which aids in estimating the depth 
+along with creating a map, which is used for path planning 
+
+simulations of the software stack are tested over software like gazebo and rviz

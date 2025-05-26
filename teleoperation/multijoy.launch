@@ -1,0 +1,12 @@
+<launch>
+    <node pkg="joy" type="joy_node" name="joy_node_0" output="screen">
+        <param name="dev" value="/dev/input/js0" />
+        <remap from="joy" to="j0"/>
+    </node>
+    <node pkg="joy" type="joy_node" name="joy_node_1" output="screen">
+        <param name="dev" value="/dev/input/js1" />
+        <remap from="joy" to="j1"/>
+    </node>
+     <node pkg="roverPilot" type="sci_remap.py" name="sci_remap_node" output="screen" />
+</launch>
+
