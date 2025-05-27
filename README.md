@@ -2,6 +2,8 @@
 
 **Arohn** is a robust, modular Mars rover prototype designed for planetary exploration and research simulations. Built for the extreme, Arohn combines autonomy, teleoperation, and scientific analysis into a single system capable of tackling rugged environments and remote operations.
 
+![Arohn Rover](Arohn.jpeg)
+
 ## Features
 
 - **Fully Autonomous Traversal**  
