@@ -7,7 +7,7 @@
 ## Features
 
 - **Fully Autonomous Traversal**  
-  Navigate and explore unknown terrains without human intervention using advanced path planning and localization.
+  Navigate and explore unknown terrains without human intervention.
 
 - **Astrobiology Tasks**  
   Perform key scientific experiments like:
